@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+## Living Patient Appointment Experience — Front-End System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A mobile-first healthcare web application designed to guide patients through their hospital journey — from recognizing symptoms to post-visit follow-up — with a calm, intuitive, and interactive experience.
 
-## Available Scripts
+## This project was developed as part of the Summative Assessment for the Front-End Development module.
 
-In the project directory, you can run:
+## Academic Context
+Academic Year: 2025–2026
+Department: ICT — Information Technology
+RTQF Level: 6, Year 1, Semester 2
+Module: Front-End Development
+Module Code: ITLDF601
+Credit Unit: 12
+## Project Goal
 
-### `npm start`
+## Design and implement a “living system” that:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Helps patients recognize symptoms
+- Suggests appropriate doctors
+- Enables appointment booking
+- Guides hospital arrival and check-in
+- Shows live waiting experience
+- Provides post-visit summary
+- Supports follow-up and medication reminders
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The interface is optimized for:
 
-### `npm test`
+ Low internet connectivity (lightweight interactions)
+ First-time smartphone users (simple UX)
+ Users under stress (low cognitive load, calming UI)
+ Partial offline usability (graceful fallback)
+ User Journey Implemented
+Symptom input (guided)
+- Doctor discovery (smart suggestions)
+- Appointment booking
+- Confirmation & reminders
+- Hospital arrival / check-in
+- Live waiting experience
+- Post-visit summary
+- Follow-up / medication reminder
+## Technologies Used
+- React.js
+- Tailwind CSS
+- React Router
+Reusable Components & Responsive Layout
+  ## Project Structure
+src/
+ ├── App.css/
+ ├── App.js/
+ ├── App.test.js/
+ ├── index.css/
+ └── index.js
+🚀 How to Run the Project
+1. Install Node.js (if not installed)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Download from: https://nodejs.org
 
-### `npm run build`
+2. Clone the repository
+git clone <your-repo-link>
+cd <project-folder>
+3. Install dependencies
+npm install
+4. Start the application
+npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+After running, open your browser at:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+http://localhost:3000
+## Admin Portal Access
+Route: /admin
+Username: admin
+Password: admin
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Example:
 
-### `npm run eject`
+http://localhost:3000/admin
+## Key Features
+Mobile-first responsive design
+Calm and accessible UI
+Reusable design components
+Interactive flows and transitions
+Lightweight performance
+Structured and clean codebase
+Patient-friendly experience
+Dedicated Admin Portal
+## Deliverables
+Implementation code in this repository
+Fully functional patient flow
+Admin management interface
+## Evaluation Focus
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## This project emphasizes:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+UX thinking and problem solving
+Creativity and originality
+UI consistency and quality
+Interaction and motion
+Code structure and professionalism
+Similarity between design and implementation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Author
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Student: MUNYAWERA Anaclet
+## Program: Information Technology (IT)
+## Reg Number: 25RP00508
