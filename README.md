@@ -10,7 +10,7 @@ Department: ICT — Information Technology
 RTQF Level: 6, Year 1, Semester 2
 Module: Front-End Development
 Module Code: ITLDF601
-Credit Unit: 12
+Reg Number: 25RP00508
 ## Project Goal
 
 ## Design and implement a “living system” that:
